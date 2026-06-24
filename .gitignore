@@ -1,0 +1,11 @@
+# Ignoriere die Daten (zu groß für GitHub)
+data/raw/*
+data/processed/*
+
+# Ignoriere die lokale SQLite-Datenbankdatei selbst (nur die .sql-Skripte hochladen)
+*.db
+*.sqlite
+
+# Ignoriere Python-Systemdateien
+__pycache__/
+.ipynb_checkpoints/
